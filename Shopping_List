@@ -19,19 +19,33 @@ Raspberry Pi --> For processing the collected data, running the web interface,
     > ESP32 Wi-Fi Module: For Arduino - Advanced Version of ESP8266 - Using 
 
   4. Power Supply: 
-    > Batteries: Rechargeable Li-ion batteries with appropriate capcity
+    > Batteries: Rechargeable Li-ion batteries with appropriate capcity - Using
         Required Capacity = Average Current Consumption x Operational Duration
       Low Power Consumption: 2000mAh
       Moderate Power Consumption: 3000-4000mAh
-      High Power Consumption: 5000mAh
+      High Power Consumption: 5000mAh 
+            Factors to Consider:
+            Power Consumption: Calculate the total power consumption of your sensors, 
+                               microcontrollers, and communication modules.
+            Operational Duration: Determine how long you want the system to operate 
+                                  between recharges.
+            Battery Capacity: Choose batteries with appropriate capacity based on your 
+                              power consumption and operational duration.
+            Example Calculation:
+            Assume your system consists of:
+                Arduino Mega with ESP8266: Average power consumption of 150mA.
+                Sensors: Average power consumption of 50mA.
+                Total Power Consumption: 200mA.
+            If you want the system to operate for 24 hours between recharges:
+                Required Capacity: 200mA × 24 hours = 4800mAh.
     > Solar Panels: Small solar panels for sustainable power supply.
 
   5. GPS Modules: 
-    > GPS Module: NEO-6M GPS Module for location tracking.
+    > GPS Module: NEO-6M GPS Module for location tracking - Using
 
   6. Enclosures: 
     > Weatherproof Enclosers: IP65-rated enclosures to protect sensors
-          and electronics from the elements. 
+                              and electronics from the elements. 
 
 Software
   1. Programming Languages:
