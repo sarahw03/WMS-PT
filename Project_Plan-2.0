@@ -1,0 +1,83 @@
+1. Define the Objectives
+  > Identify Key Features - COMPLETED
+  > Set Goals - Aim to achieve with the system, such as:
+                i. Improving efficiency
+                ii. Reducing costs
+                iii. Enhancing service quality
+
+2. Research and Planning
+  > Market Research - Look into existing waste management systems to 
+                      understand their strengths and weaknesses. 
+  > Technical Research - Investigate the technologies and tools needed, such as:
+                          i. Sensors
+                          ii. Programming languages
+                          iii. Software frameworks
+  > Project Plan - Create a detailed project plan with timelines, milestones
+                   and resource allocation. 
+
+3. Design the System Architecture
+  > System Components: Define the main components of the system, including: 
+                i. Hardware (Sensors, GPS)
+                ii. Software (Backend, Frontend)
+                iii. Data Storage 
+  > Data Flow: Plan how data will flow through the system, from data
+               collection to processing and visualisation. 
+  > Integration Points: Identify how the system will integrate with existing
+                        systems and external services. 
+
+4. Develop a Prototype
+  > Start Small: Begin with a basic prototype that includes core functionalities
+                 like data collection from sensors and a simple user interface.
+  > Iterate: Gradually add more features, testing each one thoroughly before
+             moving on to the next. 
+
+5. Choose the Tools and Technologies
+  > Programming Lanagauges: Select lanaguages that suit the needs
+                            (e.g., Python for data analysis, JavaScript for
+                            web interfaces).
+  > Frameworks and Libraries: Use frameworks like Flask or Django for 
+                              backend development and React or Angular 
+                              for frontend development. 
+  > Hardware: Choose reliable sensors and communication modules for waste
+              monitoring. 
+
+6. Develop and Test
+  > Coding: Start coding the different components of the system.
+  > Testing: Test each component individually and then test the system
+             as a whole to ensure everything works together seamlessly. 
+  > Feedback: Gather feedback from potential users and stakeholders to refine
+              the system. 
+
+7. Deploy and Maintain
+  > Deployment: Deploy the system in a real-world environment, starting with 
+                a pilot project if possible. 
+  > Monitoring: Continuously monitor the system's performance and make 
+                necessary adjustments. 
+  > Maintenance: Regulary update the system to fix bugs, add new features, and
+                 improve performance. 
+
+------------------------------------------------------------------------------
+Features Prioritisation List 
+  1. Waste Monitoring
+    Why? This feature is crucial for collecting real-time data on bin fill
+    levels, which is essential for all other functionalities. 
+
+  2. Scheduling
+    Why? Efficient scheduling ensures that bins are collected at optimal times, 
+    reducing overflow and improving service efficiency.
+
+  3. Route Optimisation
+    Why? Optimising routes can significantly reduce travel time and fuel 
+    consumption, leading to cost savings and improved efficiency.
+
+  4. User Interface
+    Why? A user-friendly interface is essential for operators to interact 
+    with the system effectively.
+
+  5. Notifications and Alerts
+    Why? Keeping operators informed about the status of bins and the 
+    collection process is crucial for timely interventions.
+
+  6. Data Analysis
+    Why? Analysing data helps in making informed decisions and improving the 
+    efficiency of the waste collection system.
