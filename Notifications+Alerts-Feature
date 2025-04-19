@@ -1,0 +1,27 @@
+# Code for Notifications and Alerts Feature in the WMS
+#
+# This feature ensures that operators are always informed about the status 
+# of the bins and the collection process. 
+# Notifications and alerts can:
+#  > Send reminders for upcoming collections.
+#  > Alert operators to any issues, such as overfilled bins or route changes. 
+#  > Provide updates on the system's performance and any necessary 
+#    maintenance. 
+#
+# Implementation Steps --> 
+#  1. Trigger Conditions: Define conditions that trigger notifications 
+#     (e.g., bin fill levels, schedule changes) 
+#  2. Notification System: Develop a system to send notifications via email, 
+#     SMS, or push notifications. 
+#  3. Integration: Integrate the notification system with the main applications.
+#  4. Testing: Test the notification system to ensure reliability. 
+#  5. User Preferences: Allow users to set their notification preferences. 
+#
+# Tools and Technologies --> 
+#  > Notification Services:
+#      a. Twilio for SMS
+#      b. Firebase Cloud Messaging for push notifications
+#  > Email Servies: 
+#      a. SendGrid
+#      b. Amazon SES
+#  > Programming Lanaguages: Python, JavaScript
