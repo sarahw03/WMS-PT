@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bin Monitoring | WasteTracker</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body class="bg-gray-100">
+    <div class="p-8">
+        <h1 class="text-3xl font-semibold mb-6">Bin Monitoring</h1>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            {% for bin in bins %}
+            <div class="bg-white p-6 rounded-2xl shadow card-glow">
+                <h2 class="text-xl font-semibold">Bin #{{ bin.id }}</h2>
+                <p class="text-gray-600">Location: {{ bin.location }}</p>
+                <p class="text-sm">Status: 
+                    <span class="{% if bin.level > 80 %}text-red-600{% elif bin.level > 50 %}text-yellow-600{% else %}text-green-600{% endif %}">
+                        {{ bin.level }}% full
+                    </span>
+                </p>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</body>
+</html>

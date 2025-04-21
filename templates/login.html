@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login | WasteTracker</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body class="bg-green-100 flex items-center justify-center min-h-screen">
+    <div class="bg-white p-8 rounded-2xl shadow-xl w-full max-w-sm">
+        <h2 class="text-2xl font-bold text-center text-green-800 mb-6">Login</h2>
+        <form method="POST" action="/login">
+            <input type="text" name="username" placeholder="Username" class="w-full p-3 border border-gray-300 rounded-xl mb-4">
+            <input type="password" name="password" placeholder="Password" class="w-full p-3 border border-gray-300 rounded-xl mb-6">
+            <button type="submit" class="btn btn-green w-full">Login</button>
+        </form>
+    </div>
+</body>
+</html>
